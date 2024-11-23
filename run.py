@@ -1,6 +1,6 @@
 from subprocess import run, PIPE, Popen, DEVNULL
 
-result = run(['python', 'hi.py'], stdout=PIPE)
+result = run(['python', 'main.py'], stdout=PIPE)
 result = result.stdout.decode('utf-8')
 
 paragraph = ""
